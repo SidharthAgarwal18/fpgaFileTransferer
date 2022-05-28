@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/imports/new/singlessd.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/imports/new/display.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/2019CS10375_2019CS50661_8/trans.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/2019CS10375_2019CS50661_8/rec.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/new/btn_debouncer.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/new/bram.vhd"
+vhdl xil_defaultlib  "../../../assignment10.srcs/sources_1/new/master.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,98 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Fri May 27 21:17:35 2022
+| Host         : ravi running 64-bit Ubuntu 16.04.5 LTS
+| Command      : report_control_sets -verbose -file master_control_sets_placed.rpt
+| Design       : master
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    32 |
+| Unused register locations in slices containing registers |   113 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              14 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              90 |           25 |
+| Yes          | No                    | No                     |              94 |           23 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             177 |           56 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+------------------------------------------+---------------------------------+------------------+----------------+
+|  Clock Signal  |               Enable Signal              |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++----------------+------------------------------------------+---------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG | get_data/stored_data[6]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[5]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | send_data/baud                           | get_btnL/debounced_btnL         |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[0]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[7]_i_2_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[1]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[2]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[4]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_data/stored_data[3]_i_1_n_0          | get_data/stored_data[7]_i_1_n_0 |                1 |              1 |
+|  clk_IBUF_BUFG | get_display/si[3]_i_1_n_0                |                                 |                1 |              4 |
+|  clk_IBUF_BUFG | get_bram/FSM_sequential_state[3]_i_1_n_0 |                                 |                2 |              4 |
+|  clk_IBUF_BUFG |                                          | get_btnL/debounced_btnL         |                3 |              4 |
+|  clk_IBUF_BUFG | get_data/E[0]                            |                                 |                1 |              8 |
+|  clk_IBUF_BUFG | get_data/display_input_reg[7]            |                                 |                1 |              8 |
+|  clk_IBUF_BUFG | get_bram/bram_din[7]_i_1_n_0             |                                 |                1 |              8 |
+|  clk_IBUF_BUFG | get_data/data_out[7]_i_1_n_0             | get_btnL/debounced_btnL         |                1 |              8 |
+|  clk_IBUF_BUFG | send_data/E[0]                           |                                 |                2 |              8 |
+|  clk_IBUF_BUFG | get_bram/bram_addr                       |                                 |                4 |             10 |
+|  clk_IBUF_BUFG | get_bram/head[9]_i_1_n_0                 |                                 |                3 |             10 |
+|  clk_IBUF_BUFG |                                          | get_data/p_0_in                 |                3 |             12 |
+|  clk_IBUF_BUFG |                                          |                                 |                9 |             14 |
+|  clk_IBUF_BUFG | get_bram/size_out                        |                                 |                4 |             16 |
+|  clk_IBUF_BUFG |                                          | send_data/baud                  |                4 |             16 |
+|  clk_IBUF_BUFG | get_bram/tail[9]_i_1_n_0                 |                                 |                4 |             18 |
+|  clk_IBUF_BUFG |                                          | get_display/counter[0]_i_1_n_0  |                5 |             18 |
+|  clk_IBUF_BUFG |                                          | get_btnL/calc[31]_i_2_n_0       |                5 |             20 |
+|  clk_IBUF_BUFG |                                          | get_btnR/calc[31]_i_2__0_n_0    |                5 |             20 |
+|  clk_IBUF_BUFG | send_data/bits                           | get_btnL/debounced_btnL         |                9 |             32 |
+|  clk_IBUF_BUFG | get_data//i__n_0                         | get_data/stored_data[7]_i_1_n_0 |               12 |             32 |
+|  clk_IBUF_BUFG | get_btnL/calc[31]_i_2_n_0                | get_btnL/calc[31]_i_1_n_0       |               10 |             32 |
+|  clk_IBUF_BUFG | get_btnR/calc[31]_i_2__0_n_0             | get_btnR/calc[31]_i_1__0_n_0    |                7 |             32 |
+|  clk_IBUF_BUFG | get_data/p_0_out_n_0                     | get_data/stored_data[7]_i_1_n_0 |                8 |             32 |
++----------------+------------------------------------------+---------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     9 |
+| 4      |                     3 |
+| 8      |                     5 |
+| 10     |                     2 |
+| 12     |                     1 |
+| 14     |                     1 |
+| 16+    |                    11 |
++--------+-----------------------+
+
+

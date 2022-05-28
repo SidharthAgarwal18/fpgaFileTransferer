@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/ip/blk_mem_gen_0/sim/blk_mem_gen_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module blk_mem_gen_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/dual/cs5190661/vivado/assignment10/assignment10.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/imports/new/singlessd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity singlessd
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/imports/new/display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity display
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/2019CS10375_2019CS50661_8/trans.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity trans
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/2019CS10375_2019CS50661_8/rec.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity rec
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/new/btn_debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity btn_debouncer
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/imports/vivado/assignment9/assignment9.srcs/sources_1/new/bram.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity fifo
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/dual/cs5190661/vivado/assignment10/assignment10.srcs/sources_1/new/master.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity master
