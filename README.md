@@ -11,4 +11,5 @@ uploading files (BASYS-3 to PC).
 
 ## Note
 For complete problem statement see `Problem_Statement.pdf`  
-For the report and results see `A10.pdf`
+For the report and results see `A10.pdf`  
+You can simply open this project in vivado using `.xpr` file in the main directory.
