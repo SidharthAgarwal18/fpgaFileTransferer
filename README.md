@@ -8,3 +8,7 @@ In this you need to utilize many of the previous modules including serial transf
 ## Specification  
 Interface the serial receiver and transmitter designed in the previous assignments to a memory module for downloading (PC to BASYS-3) and
 uploading files (BASYS-3 to PC). 
+
+## Note
+For complete problem statement see `Problem_Statement.pdf`  
+For the report and results see `A10.pdf`
